@@ -332,7 +332,7 @@ function AnswerButton(answer) {
 function playBackgroundMusic() {
   if (store.audioOn) {
     var audio = new Audio();
-    audio.volume = 0.3;
+    audio.volume = 0.2;
     audio.src = store.audio[3];
     audio.play();
   }
